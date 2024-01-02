@@ -1,12 +1,12 @@
-A.Introduction
+# Introduction
 
 This API contains basic features for a scalable library platform. It includes endpoints to add, delete and search for books, and view various genres and authors.
 
-B.About the Stack
+## About the Stack
 
 The API follows the REST pattern. It is built with python and flask, a lightweight backend microservices framework required to handle requests and responses, and uses flask-CORS to handle cross-origin requests.
 
-C.Documentation Example
+## Documentation Example
 
 1. `GET \\books?page=<page_number>`
 Fetches all books of all available genres paginated
